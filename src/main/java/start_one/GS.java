@@ -13,7 +13,7 @@ public class GS extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		PrintWriter p = resp.getWriter();
-		p.println("welcome");
+		p.println("welcome to here");
 	}
 
 }
